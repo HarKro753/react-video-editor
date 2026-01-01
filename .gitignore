@@ -39,3 +39,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/packages/animations/node_modules
+/packages/animations/dist
+
+/packages/events/node_modules
+/packages/events/dist
+
+/packages/frames/node_modules
+/packages/frames/dist
+
+/packages/state/node_modules
+/packages/state/dist
+
+/packages/timeline/node_modules
+/packages/timeline/dist
+
+/packages/transitions/node_modules
+/packages/transitions/dist
+
+/packages/types/node_modules
+/packages/types/dist

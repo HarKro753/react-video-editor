@@ -1,4 +1,4 @@
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { State, ITrack } from "@designcombo/types";
 import { generateId } from "../utils/generate-id";
 

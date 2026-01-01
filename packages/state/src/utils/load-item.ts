@@ -32,7 +32,7 @@ import {
 import { loadFonts } from "./fonts";
 import { generateId } from "./generate-id";
 import { convertSvgColorsToHex, prefixSvgClasses } from "./load-illustration";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 
 const defaultShadow: IBoxShadow = {
   color: "#000000",

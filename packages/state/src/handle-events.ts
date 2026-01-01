@@ -44,7 +44,7 @@ import {
   EDIT_TRACK
 } from "./events";
 import StateManager, { ADD_ITEMS } from ".";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 
 import { State, IBulkAction } from "@designcombo/types";
 import { deleteLayer } from "./handlers/delete-layer";

@@ -6,7 +6,7 @@ import {
   ItemStructure
 } from "@designcombo/types";
 import { generateId } from "../utils/generate-id";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { loadFonts } from "../utils/fonts";
 import { getDuration } from "../utils/duration";
 import {

@@ -1,5 +1,5 @@
 import { ICompositionAnimation, State } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { loadFonts } from "../../utils/fonts";
 
 interface Animations {

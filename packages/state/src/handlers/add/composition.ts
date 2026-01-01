@@ -1,5 +1,5 @@
 import { State, IComposition, ITrackItem } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { loadCompositionItem } from "../../utils/load-item";
 import { getDuration } from "../../utils/duration";
 import { alignMagneticTracks } from "../../utils/align-tracks";

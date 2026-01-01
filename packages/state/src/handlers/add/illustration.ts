@@ -1,5 +1,5 @@
 import { State, IIllustration } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { loadIllustrationItem } from "../../utils/load-item";
 import { getDuration } from "../../utils/duration";
 import { alignMagneticTracks } from "../../utils/align-tracks";

@@ -1,5 +1,5 @@
 import { State } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { getDuration } from "../utils/duration";
 import { transfString } from "../utils/load-illustration";
 import { getImageInfo } from "../utils/media";

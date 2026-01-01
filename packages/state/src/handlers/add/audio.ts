@@ -1,5 +1,5 @@
 import { State, IAudio } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { loadAudioItem } from "../../utils/load-item";
 import { getDuration } from "../../utils/duration";
 import { alignMagneticTracks } from "../../utils/align-tracks";

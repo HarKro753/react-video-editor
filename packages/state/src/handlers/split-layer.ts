@@ -1,5 +1,5 @@
 import { ITransition, State } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { generateId } from "../utils/generate-id";
 
 export function splitLayer(state: State, time: number): Partial<State> {

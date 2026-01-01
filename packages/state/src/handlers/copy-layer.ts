@@ -1,5 +1,5 @@
 import { State, ITrack, ItemStructure } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 
 export function copyLayer(state: State): void {
   const currentState = cloneDeep(state);

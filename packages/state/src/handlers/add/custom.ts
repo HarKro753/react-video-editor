@@ -6,7 +6,7 @@ import {
   ILinealAudioBars,
   IProgressSquare
 } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import {
   loadLinealAudioBarsItem,
   loadProgressBarItem,

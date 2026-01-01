@@ -1,5 +1,5 @@
 import { State } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { alignMagneticTracks } from "../utils/align-tracks";
 import { getDuration } from "../utils/duration";
 // "oFzbZWEjlenCDN0S";

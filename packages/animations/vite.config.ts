@@ -11,9 +11,9 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "animations",
       // formats: ['es', 'umd'],
-      fileName: (format) => `index.${format}.js`
-    }
+      fileName: (format) => `index.${format}.js`,
+    },
   },
   resolve: { alias: { src: resolve("src/") } },
-  plugins: [peerDepsExternal(), dts()]
+  plugins: [peerDepsExternal(), dts()],
 });

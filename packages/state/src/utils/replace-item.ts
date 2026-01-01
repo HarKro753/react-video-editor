@@ -1,5 +1,5 @@
 import { ITrackItem } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 
 export const getDimension = (
   item: ITrackItem,

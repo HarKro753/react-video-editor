@@ -1,5 +1,5 @@
 import { State } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 
 interface BackgroundUpdate {
   type?: "color" | "image";

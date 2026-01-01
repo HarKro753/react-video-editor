@@ -7,14 +7,12 @@ import {
   State,
   ITimelineScaleState
 } from "@designcombo/types";
-import isEqual from "lodash.isequal";
+import { isEqual, pick, cloneDeep } from "lodash";
 import handleStateEvents from "./handle-events";
 import microdiff, { Difference } from "microdiff";
 import { Patch, applyPatches, enablePatches, produce } from "immer";
-import pick from "lodash.pick";
 import { DEFAULT_FPS, DEFAULT_SIZE } from "./constants/design";
 import { getDuration } from "./utils/duration";
-import cloneDeep from "lodash.clonedeep";
 import { setStateOptions } from "./state-options";
 
 // Define a clear configuration interface

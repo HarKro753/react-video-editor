@@ -25,12 +25,12 @@
     "@vitejs/plugin-react": "^4.2.1"
   },
   "dependencies": {
-    "@remotion/paths": "4.0.340",
-    "@remotion/shapes": "4.0.340",
-    "@remotion/transitions": "4.0.340"
+    "@remotion/paths": "4.0.398",
+    "@remotion/shapes": "4.0.398",
+    "@remotion/transitions": "4.0.398"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
-    "remotion": "4.0.340"
+    "remotion": "4.0.398"
   }
 }

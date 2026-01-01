@@ -1,5 +1,5 @@
 import { State, ITrackItem } from "@designcombo/types";
-import cloneDeep from "lodash.clonedeep";
+import { cloneDeep } from "lodash";
 import { getImageInfo, getVideoInfo } from "../utils/media";
 import { alignMagneticTracks } from "../utils/align-tracks";
 import { getDuration } from "../utils/duration";
